@@ -23,7 +23,8 @@ var config={
 
 
 //ScrapeWebSite Methot Start
-async function scrapeWebSite(){
+async function scrapeWebSite()
+{
     
     const xPath='';    
         url= ''
@@ -42,14 +43,19 @@ async function scrapeWebSite(){
         }
         
         
-        
-        sql.connect(config,function(err){
-            try {
+        /*
+        sql.connect(config,function(err)
+        {
+            try 
+            {
                 var request = new sql.Request();
-            } catch (error) {
+            } 
+            catch (error) 
+            {
                 console.log(error)
             }
         }
+        */
             
         )
     
